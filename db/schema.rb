@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_08_22_231210) do
+ActiveRecord::Schema.define(version: 2022_08_22_232721) do
 
   create_table "characters", force: :cascade do |t|
     t.string "alignment"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2022_08_22_231210) do
     t.string "melee_weapon"
     t.string "race"
     t.string "ranged_weapon"
+    t.string "name"
   end
 
 end
