@@ -10,18 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_08_22_232721) do
+ActiveRecord::Schema.define(version: 2022_08_23_160510) do
 
-  create_table "characters", force: :cascade do |t|
-    t.string "alignment"
-    t.string "background"
-    t.string "city"
-    t.string "klass"
-    t.string "language"
-    t.string "melee_weapon"
-    t.string "race"
-    t.string "ranged_weapon"
+  create_table "cards", force: :cascade do |t|
     t.string "name"
+    t.string "image_url"
+    t.integer "health"
+    t.integer "attack"
+    t.integer "opponent_id"
+    t.integer "player_id"
+  end
+
+  create_table "opponents", force: :cascade do |t|
+    t.string "name"
+    t.integer "deck_value"
+    t.integer "hand_value"
+  end
+
+  create_table "players", force: :cascade do |t|
+    t.string "name"
+    t.integer "deck_value"
+    t.integer "hand_value"
   end
 
 end
