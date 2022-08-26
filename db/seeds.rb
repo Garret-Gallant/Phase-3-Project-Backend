@@ -37,7 +37,7 @@ Card.create(name: "Rick Sanchez", image_url: "https://comicvine.gamespot.com/a/u
 Card.create(name: "Archer", image_url: "https://deadline.com/wp-content/uploads/2020/10/1107_01.jpg", health: 4, attack: 6, opponent_id: opponent.id, player_id: player.id)
 Card.create(name: "Eric Cartman", image_url: "https://cdna.artstation.com/p/assets/images/images/027/495/064/original/art-eater-1.gif?1591708395", health: 2, attack: 3, opponent_id: opponent.id, player_id: player.id)
 Card.create(name: "Nikola Tesla", image_url: "https://images.theconversation.com/files/200600/original/file-20180102-26163-d9wlms.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip", health: 4, attack: 2, opponent_id: opponent.id, player_id: player.id)
-Card.create(name: "Devs cat: Mikasa", image_url: "https://im2.ezgif.com/tmp/ezgif-2-b028b4ffdc.jpg", health: 7, attack: 5, opponent_id: opponent.id, player_id: player.id)
+Card.create(name: "Devs cat: Mikasa", image_url: "https://i.imgur.com/SGLzQQq.jpg", health: 7, attack: 5, opponent_id: opponent.id, player_id: player.id)
 Card.create(name: "A Particulary Weak Baby", image_url: "https://www.ldoceonline.com/media/english/illustration/baby.jpg?version=1.2.55", health: 2, attack: 2, opponent_id: opponent.id, player_id: player.id)
 Card.create(name: "The thing from Nope", image_url: "https://imageio.forbes.com/specials-images/imageserve/62e1ba0dbd1920fb77133858/Jordan-Peele-s-Nope-stars-a-memorable-movie-monster-/960x0.jpg?format=jpg&width=960", health: 4, attack: 6, opponent_id: opponent.id, player_id: player.id)
 Card.create(name: "Totoro", image_url: "https://img.jakpost.net/c/2017/04/06/2017_04_06_24707_1491467064._large.jpg", health: 8, attack: 2, opponent_id: opponent.id, player_id: player.id)
