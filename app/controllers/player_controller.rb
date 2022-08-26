@@ -6,4 +6,9 @@ class PlayerController < ApplicationController
     player.to_json
   end
 
+  get '/player-hand' do
+    player_hand = Player.first.player_hand
+    player_hand.to_json
+  end
+
 end
