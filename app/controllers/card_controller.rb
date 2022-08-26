@@ -2,7 +2,7 @@ class CardController < ApplicationController
   set :default_content_type, "application/json"
 
   get "/cards" do
-    card = Card.all
+    card = Card.all.order("name ASC")
     card.to_json
   end
 

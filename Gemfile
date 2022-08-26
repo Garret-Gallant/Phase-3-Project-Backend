@@ -30,7 +30,10 @@ gem "rake", "~> 13.0"
 
 # Provides functionality to interact with a SQLite3 database
 gem "sqlite3", "~> 1.4"
+<<<<<<< HEAD
 # gem "pg", '~> 0.20'
+=======
+>>>>>>> 052555b173b6fd1b096e4817d20ebcfce13eea51
 
 #Provides faker randgen for dnd characters and encounters
 gem "faker"
